@@ -16,30 +16,37 @@ public class Brad extends Copac {
     public Brad(int inaltimeCoroana, int varsta) {
         this.inaltimeCoroana = inaltimeCoroana;
         this.varsta = varsta;
-        for (int i = 0; i < inaltimeCoroana; i++) {
-            for (int j = 0; j <= i; j++) {
-                numarFrunze++;
+        for (int i = 0; i < inaltimeCoroana + 1; i++) {
+            for (int j = inaltimeCoroana; j > 0; j--) {
+
             }
             linii = i;
         }
+        this.numarFrunze = inaltimeCoroana * inaltimeCoroana;
     }
 
     public void afiseaza() {
 
-        for (int i = 0; i < inaltimeCoroana; i++) {
-            for (int j = inaltimeCoroana - i; j > 1; j--) {
+        for (int i = 0; i < inaltimeCoroana + 1; i++) {
+            for (int j = inaltimeCoroana - i; j > 0; j--) {
                 System.out.print(" ");
             }
-            for (int j = 0; j <= i; j++) {
-                System.out.print(" " + tipFrunza[rand.nextInt(4)]);
+            for (int j = 0; j < (2 * i) - 1; j++) {
+                if (j % 2 == 0) {
+                    System.out.print(tipFrunza[rand.nextInt(4)]);
+
+                } else {
+                    System.out.print(tipFrunza[rand.nextInt(4)]);
+
+                }
             }
             System.out.println();
             linii = i;
         }
-        for (int i = 1; i <= linii + 1; i++) {
+        for (int i = 1; i <= linii - 1; i++) {
             xUri = xUri + " ";
         }
-        for (int i = 1; i <= linii + 1; i++) {
+        for (int i = 1; i <= linii - 1; i++) {
             if (i == (linii / 2)) {
                 for (int x = 1; x <= 3; x++) {
                     System.out.print(xUri);
