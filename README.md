@@ -14,7 +14,7 @@ Implemented OOP Concepts: The project highlights the implementation of fundament
  example output:
  ```
  --------TOP BRAZI IN FUNCTIE DE FRUNZE SI VARSTA------- 
- 1st PLACE --- Tree with 81 leaves and 70 years with a crown height of 9m
+ 1st PLACE --- Tree with 81 leaves and 70 years with a crown height of 9m.
           
          *
         ###
