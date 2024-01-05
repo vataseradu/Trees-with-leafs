@@ -14,7 +14,7 @@ Implemented OOP Concepts: The project highlights the implementation of fundament
  example output:
  ```
  --------TOP BRAZI IN FUNCTIE DE FRUNZE SI VARSTA------- 
- LOCUL 1 --- Brad cu 81 frunze si 70 ani cu 9m inaltimea coroanei
+ 1st PLACE --- Tree with 81 leaves and 70 years with a crown height of 9m
           
          *
         ###
@@ -29,13 +29,13 @@ Implemented OOP Concepts: The project highlights the implementation of fundament
          X
          X
  ------------------------------------------------
- INTRE LOCUL 1 SI LOCUL 2 A FOST O DIFERENTA DE 17 FRUNZE
+ THERE WAS A DIFFERENCE OF 17 LEAVES BETWEEN 1ST AND 2ND PLACE
 
- LOCUL 2 --- Brad cu 64 frunze si 89 ani  // numar frunze=64  // inaltimea coroanei=8
- LOCUL 3 --- Brad cu 49 frunze si 81 ani  // numar frunze=49  // inaltimea coroanei=7
- LOCUL 4 --- Brad cu 49 frunze si 18 ani  // numar frunze=49  // inaltimea coroanei=7
- LOCUL 5 --- Brad cu 49 frunze si 3 ani  // numar frunze=49  // inaltimea coroanei=7
- LOCUL 6 --- Brad cu 36 frunze si 72 ani  // numar frunze=36  // inaltimea coroanei=6
+2nd PLACE --- Tree with 64 leaves and 89 years  // number of leaves = 64  // crown height = 8
+3rd PLACE --- Tree with 49 leaves and 81 years  // number of leaves = 49  // crown height = 7
+4th PLACE --- Tree with 49 leaves and 18 years  // number of leaves = 49  // crown height = 7
+5th PLACE --- Tree with 49 leaves and 3 years   // number of leaves = 49  // crown height = 7
+6th PLACE --- Tree with 36 leaves and 72 years  // number of leaves = 36  // crown height = 6
 ```
 
 
