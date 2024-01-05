@@ -42,4 +42,4 @@ LOCUL 6 --- Brad cu 28 frunze si 30 ani
 
 assignment at the Faculty of Electrical Engineering UPB by Anton DUCA, PhD. Associate Professor.
 </br>
-inspiration: https://play.google.com/store/books/details/Introducere_in_POO_cu_Java?id=lGEhEAAAQBAJ&hl=en_US&gl=US
+
