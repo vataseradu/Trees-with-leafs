@@ -39,6 +39,6 @@ Implemented OOP Concepts: The project highlights the implementation of fundament
 ```
 
 
-assignment at the Faculty of Electrical Engineering UPB by Anton DUCA, PhD. Associate Professor.
+assignment at the Faculty of Electrical Engineering UPB from professor: Anton DUCA, PhD. Associate Professor.
 </br>
 
