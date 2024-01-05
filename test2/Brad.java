@@ -16,12 +16,6 @@ public class Brad extends Copac {
     public Brad(int inaltimeCoroana, int varsta) {
         this.inaltimeCoroana = inaltimeCoroana;
         this.varsta = varsta;
-        for (int i = 0; i < inaltimeCoroana + 1; i++) {
-            for (int j = inaltimeCoroana; j > 0; j--) {
-
-            }
-            linii = i;
-        }
         this.numarFrunze = inaltimeCoroana * inaltimeCoroana;
     }
 
