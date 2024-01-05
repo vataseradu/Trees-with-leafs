@@ -14,29 +14,28 @@ Implemented OOP Concepts: The project highlights the implementation of fundament
  example output:
  ```
  --------TOP BRAZI IN FUNCTIE DE FRUNZE SI VARSTA------- 
-LOCUL 1 --- Brad cu 81 frunze si 69 ani cu 9m inaltimea coroanei
-         
-        $
-       ##*
-      #*$@*
-     #*#$#$*
-    #$$$#$*$*
-   @*@@$**$$*@
-  *#*$**@#$#$#$
- @$$##@#$$@$#@@*
-$$*#$*$*@$**#*$#*
-        X
-        X
-        X
-------------------------------------------------
-INTRE LOCUL 1 SI LOCUL 2 A FOST O DIFERENTA DE 17 FRUNZE
+ LOCUL 1 --- Brad cu 81 frunze si 70 ani cu 9m inaltimea coroanei
+          
+         *
+        ###
+       ***#$
+      #@#@@$*
+     *#****#*@
+    @@**#$*@@$*
+   @#$*$**@***#$
+  $#$*@#@**@@$#@@
+ #*$#$@$$@$$$@$$@$
+         X
+         X
+         X
+ ------------------------------------------------
+ INTRE LOCUL 1 SI LOCUL 2 A FOST O DIFERENTA DE 17 FRUNZE
 
-LOCUL 2 --- Brad cu 64 frunze si 55 ani  // numar frunze=64  //  inaltimea coroanei=8
-LOCUL 3 --- Brad cu 49 frunze si 5 ani   // numar frunze=49  //  inaltimea coroanei=7
-LOCUL 4 --- Brad cu 25 frunze si 62 ani  // numar frunze=25  //  inaltimea coroanei=5
-LOCUL 5 --- Brad cu 16 frunze si 38 ani  // numar frunze=16  //  inaltimea coroanei=4
-LOCUL 6 --- Brad cu 9 frunze si 22 ani   // numar frunze=9   //  inaltimea coroanei=3
-
+ LOCUL 2 --- Brad cu 64 frunze si 89 ani  // numar frunze=64  // inaltimea coroanei=8
+ LOCUL 3 --- Brad cu 49 frunze si 81 ani  // numar frunze=49  // inaltimea coroanei=7
+ LOCUL 4 --- Brad cu 49 frunze si 18 ani  // numar frunze=49  // inaltimea coroanei=7
+ LOCUL 5 --- Brad cu 49 frunze si 3 ani  // numar frunze=49  // inaltimea coroanei=7
+ LOCUL 6 --- Brad cu 36 frunze si 72 ani  // numar frunze=36  // inaltimea coroanei=6
 ```
 
 
