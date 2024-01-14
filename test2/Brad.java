@@ -1,44 +1,34 @@
 package test2;
 
 import test2.forma1.Copac;
-
-import java.util.Random;
+import test2.forma1.Frunza;
 
 public class Brad extends Copac {
-    int inaltimeCoroana, varsta;
-    Random rand = new Random();
+    public int inaltimeaCoroanei, varsta, numarFrunze,linii;
     String xUri = "";
-    int linii;
-    char[] tipFrunza = {'*', '#', '$', '@'};
-    int numarFrunze;
 
-
-    public Brad(int inaltimeCoroana, int varsta) {
-        this.inaltimeCoroana = inaltimeCoroana;
+    public Brad(int inaltimeaCoroanei, int varsta) {
+        this.inaltimeaCoroanei = inaltimeaCoroanei;
         this.varsta = varsta;
-        this.numarFrunze = inaltimeCoroana * inaltimeCoroana;
+        numarFrunze = inaltimeaCoroanei * inaltimeaCoroanei;
     }
+
 
     public void afiseaza() {
 
-        for (int i = 0; i < inaltimeCoroana + 1; i++) {
-            for (int j = inaltimeCoroana - i; j > 0; j--) {
-                System.out.print(" ");
+        for (int i = 1; i < inaltimeaCoroanei + 1; i++) {
+            for (int j = inaltimeaCoroanei - i; j > 0; j--) {
+                System.out.print("  ");
             }
             for (int j = 0; j < (2 * i) - 1; j++) {
-                if (j % 2 == 0) {
-                    System.out.print(tipFrunza[rand.nextInt(4)]);
+                System.out.print(new Frunza().getForma() + " ");
 
-                } else {
-                    System.out.print(tipFrunza[rand.nextInt(4)]);
-
-                }
             }
             System.out.println();
             linii = i;
         }
-        for (int i = 1; i <= linii - 1; i++) {
-            xUri = xUri + " ";
+        for (int i = 0; i < linii - 1; i++) {
+            xUri = xUri + "  ";
         }
         for (int i = 1; i <= linii - 1; i++) {
             if (i == (linii / 2)) {
@@ -49,38 +39,30 @@ public class Brad extends Copac {
                 }
             }
         }
+
     }
 
-    public int getNumarFrunze() {
-        return numarFrunze;
-    }
-
-    public int getVarsta() {
-        return varsta;
-    }
-
-    public int getInaltimeCoroana() {
-        return inaltimeCoroana;
-    }
-
-    public int comparaCu(Copac deComparat) {
-        if (deComparat instanceof Brad) {
-            Brad totBrad = (Brad) deComparat;
-            if (this.getNumarFrunze() > totBrad.getNumarFrunze()) {
-                return 1;
-            }
-            if (this.getNumarFrunze() < totBrad.getNumarFrunze()) {
-                return -1;
-            } else {
-                return 0;
-            }
-        }
-        return -50;
-    }
+    public int getNumarFrunze() {return numarFrunze;}
+    public int getVarsta() {return varsta;}
+    public int getInaltimeCoroana() {return inaltimeaCoroanei; }
 
     @Override
     public String toString() {
-        return "Brad cu " + this.getNumarFrunze() + " frunze " + "si " + this.getVarsta() + " ani";
+        return "Brad de inaltime:" + this.inaltimeaCoroanei + " varsta:" + this.varsta + " numarFrunze:" + this.numarFrunze;
+    }
+    
+    @Override
+    public int comparaCu(Copac deComparat) {
+        if (deComparat instanceof Brad) {
+            Brad totBrad = (Brad) deComparat;
+            if (this.getNumarFrunze() > ((Brad) deComparat).getNumarFrunze())
+                return 1;
+            if (this.getNumarFrunze() < ((Brad) deComparat).getNumarFrunze())
+                return -1;
+            else
+                return 0;
+        }
+        return 0;
     }
 
     public void sortareElemente(Copac[] copac) {
@@ -106,6 +88,6 @@ public class Brad extends Copac {
                 }
             }
         }
-    }
 
+    }
 }
