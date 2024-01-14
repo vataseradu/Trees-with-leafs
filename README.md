@@ -16,18 +16,18 @@ Implemented OOP Concepts: The project highlights the implementation of fundament
  --------TOP BRAZI IN FUNCTIE DE FRUNZE SI VARSTA------- 
  1st PLACE --- Tree with 81 leaves and 70 years with a crown height of 9m.
           
-         *
-        ###
-       ***#$
-      #@#@@$*
-     *#****#*@
-    @@**#$*@@$*
-   @#$*$**@***#$
-  $#$*@#@**@@$#@@
- #*$#$@$$@$$$@$$@$
-         X
-         X
-         X
+                @ 
+              # @ * 
+            $ # # * $ 
+          * * $ @ $ * * 
+        * # # @ # # * * # 
+      @ $ * @ * * # # $ # @ 
+    * @ @ @ $ $ * # # @ $ $ # 
+  * $ @ @ * $ # # # @ @ * * # * 
+* $ * * * @ * # * # # $ @ @ @ $ $ 
+                X
+                X
+                X
  ------------------------------------------------
  THERE WAS A DIFFERENCE OF 17 LEAVES BETWEEN 1ST AND 2ND PLACE
 
